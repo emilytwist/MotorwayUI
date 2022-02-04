@@ -14,8 +14,8 @@ import Masonry from 'react-masonry-css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
-import loadingImage from "./logo.svg";
-import errorImage from "./logo.svg";
+import loadingImage from "./images/logo192.png";
+import errorImage from "./images/logo192.png";
 
 const App = () => {
   const [images, setImages] = useState();
