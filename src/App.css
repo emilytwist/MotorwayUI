@@ -1,0 +1,142 @@
+body {
+    background-color: #fef200;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#logo {
+    max-width:100%;
+}
+
+.form-button {
+    margin-top: 10%;
+    float: right;
+    margin-right: 12px;
+}
+
+.white-bg {
+    background-color: #fff;
+    width:100%;
+}
+
+.my-masonry-grid {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: -30px;
+    width: auto;
+  }
+.my-masonry-grid_column {
+padding-left: 30px;
+background-clip: padding-box;
+}
+
+/* Style your items */
+.my-masonry-grid_column > div { 
+margin-bottom: 30px;
+}
+
+.my-masonry-grid img {
+    width: 100%;
+    opacity: 0.4;
+}
+
+.my-masonry-grid img:hover {
+    opacity: 1;
+}
+
+.active {
+    opacity: 1 !important;
+}
+
+.portfolio-images {
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.image-container {
+    position: relative;
+    max-width: 300;
+}
+
+.profile-image {
+    max-width: 80px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#image-name {
+    font-size: 1.5em;
+    font-weight: 500;
+    margin-left: 20px;
+}
+
+#image-description {
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.overlay {
+    display: none;
+}
+
+.overlay-description {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    font-size: 1em;
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+    max-height: 60%;
+    overflow: hidden;
+}
+
+.overlay-lightbox {
+    display: block;
+    position: absolute;
+    bottom: 60%;
+    color: #f1f1f1;
+    width: 100%;
+    font-size: 1.5em;
+    font-style: italic;
+    padding: 10px;
+    text-align: center;
+    max-height: 40%;
+    cursor: pointer;
+}
+
+@media (max-width: 1850px) {
+    .image-container {
+        max-width: 250px;
+    }
+  }
+
+@media (max-width: 1600px) {
+    .image-container {
+        max-width: 200px;
+    }
+}
+
+@media (max-width: 575px) {
+    .form-button {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .image-container {
+        max-width: 350px;
+    }
+}
+
+@media (max-width: 430px) {
+    .image-container {
+        max-width: 100%;
+    }
+}
